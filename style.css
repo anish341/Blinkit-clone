@@ -1,0 +1,191 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  margin: 0px;
+  padding: px;
+}
+.main {
+  width: 100%;
+  height: 100vh;
+}
+
+.navbar {
+  width: 100%;
+  height: 20%;
+  position: fixed;
+  border: 1px solid rgb(248, 245, 245);
+  text-transform: capitalize;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: white;
+}
+.navbar {
+  position: sticky;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+  font-size: x-large;
+  position: fixed;
+}
+
+.big img {
+  margin-top: 110px;
+}
+
+.logo {
+  color: #f1be5d;
+}
+.it {
+  color: green;
+}
+
+@media only screen and(max-width:768px) {
+  .input {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .nav b {
+    font-size: 18px;
+  }
+
+  #nav_id {
+    display: none;
+  }
+  .login {
+    display: none;
+  }
+  .shop_card {
+    display: none;
+  }
+}
+
+input {
+  border-radius: 0.6rem;
+  height: 2.9rem;
+  width: 410px;
+  background-color: aliceblue;
+  border: none;
+}
+
+.login {
+  height: 2.6rem;
+}
+.shop_card {
+  height: 2.9rem;
+  width: 7rem;
+  font-size: medium;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  color: aliceblue;
+  font-weight: 400;
+  background-color: green;
+  border-radius: 0.6rem;
+}
+select {
+  border: none;
+}
+
+button {
+  color: green;
+}
+.image {
+  display: flex;
+  justify-content: space-around;
+}
+
+.list1 {
+  justify-content: space-around;
+}
+
+.about_dairy_milk {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.7rem;
+}
+
+.dairy_milk {
+  flex-direction: row;
+  display: flex;
+  padding: 1rem;
+  margin: 1rem;
+  align-items: center;
+  gap: 1rem;
+  overflow-x: scroll;
+}
+
+.milk_text1 {
+  padding: 0.7rem;
+  display: flex;
+  align-items: center;
+}
+
+.milk_text3 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.7rem;
+  align-items: center;
+}
+
+.dairy_milk_text {
+  border: 1px solid wheat;
+  border-radius: 1rem;
+}
+
+.foo_container_main {
+  display: flex;
+}
+
+.cate_con {
+  width: 58%;
+}
+
+.link-about {
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.categories_links_container {
+  display: flex;
+}
+
+.see_all {
+  color: green;
+}
+
+.links_main_container {
+  display: flex;
+  gap: 1rem;
+}
+
+li {
+  padding: 1rem;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+.about_icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1000px) {
+  .links_main_container {
+    flex-wrap: wrap;
+  }
+  .cate_con {
+    width: 80%;
+  }
+}
